@@ -1,0 +1,29 @@
+<meta cahrset="UTF-8">
+
+<script>
+	alert("------PROGRAMA SOLIDÁRIO------")
+	
+	alert("Digite [0] para doar R$:10,00" + "<br>" + "Digite [1] para doar R$:25,00" + "<br>" + "Digite [2] para doar R$:50,00" + "<br>" + "Digite [3] para doar outros valores " + "<br>" + "Digite [4] Para cancelar ")
+		
+	var valores = parseInt(prompt("Digite um numero: "))
+	
+	switch(valores){
+		case 0:
+		document.write("Muito obrigado por ter doado R$:10,00 para a nossa instituição!")
+		break
+		case 1:
+		document.write("Muito obrigado por ter doado R$:25,00 para a nossa instituição e, ganhou uma xícara personalizado! ")
+		break
+		case 2:
+		document.write("Muito obrigado por ter doado R$:50,00 para a nossa instituição e, ganhou um FONE BLUETHOOT")
+		break
+		case 3:
+		var valoresDiferenciado = parseFloat(prompt("Valor a doar R$: "))
+		document.write("Agradecemos o valor doado por você! R$: " + valoresDiferenciado + "<br>" +"Por ter doado esse valor, você ganhou 1 iphone 15 PRO MAX")
+		break
+		case 4:
+		document.write("Poxa que pena, da próxima vez lembre-se de doar para os que precisam!")
+	}
+	
+
+</script>

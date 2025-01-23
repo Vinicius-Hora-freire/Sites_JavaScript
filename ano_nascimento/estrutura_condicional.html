@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<script>
+	var nome = prompt("Informe seu nome completo: ")
+	var ano_nasci = parseInt(prompt("Informe seu ano de Nascimento: "))
+	var ano_atual = parseInt(prompt("Informe o ano atual: "))
+	alert("VERIFICANDO...")
+	var seu_aniversario = ano_atual - ano_nasci
+		
+	if(seu_aniversario >= 18){
+		document.write("Muito bem " + nome + " você já é maior de idade. Já tem " + seu_aniversario + " anos.")
+	}else{
+		document.write("Muito bem " + nome + " você não é maior de idade! tem apenas: " + seu_aniversario + " anos.")
+	}
+	
+	
+</script>
